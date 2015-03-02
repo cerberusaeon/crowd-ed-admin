@@ -10,13 +10,13 @@
   "sidebar": {
     "WELCOME": "Welcome",
     "heading": {
-      "HEADER": "Main Navigation"
+      "HEADER": "Navigation"
     },
     "nav": {
-      "SINGLEVIEW": "Single View",
+      "SINGLEVIEW": "Feedback Summaries",
       "menu": {
-        "MENU": "Menu",
-        "SUBMENU": "Sub Menu"
+        "MENU": "Manage Intel",
+        "SUBMENU": "New Question of the Day"
       }
     }
   }

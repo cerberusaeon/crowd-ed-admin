@@ -31,8 +31,8 @@ var App = angular.module('angle', ['ngRoute', 'ngAnimate', 'ngStorage', 'ngCooki
               // Scope Globals
               // ----------------------------------- 
               $rootScope.app = {
-                name: 'Angle',
-                description: 'Angular Bootstrap Admin Template',
+                name: 'Dashboard',
+                description: 'An administrative dashboard to manage CROWD.ED',
                 year: ((new Date()).getFullYear()),
                 layout: {
                   isFixed: true,
@@ -84,12 +84,12 @@ function ($stateProvider, $locationProvider, $urlRouterProvider, helper) {
     })
     .state('app.singleview', {
         url: '/singleview',
-        title: 'Single View',
+        title: 'QoD Summary',
         templateUrl: helper.basepath('singleview.html')
     })
     .state('app.submenu', {
         url: '/submenu',
-        title: 'Submenu',
+        title: 'Policy Problem Summary',
         templateUrl: helper.basepath('submenu.html')
     })
     // 
